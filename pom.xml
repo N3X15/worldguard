@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sk89q</groupId>
   <artifactId>worldguard</artifactId>
-  <version>5.5-SNAPSHOT</version>
+  <version>5.5-N3X15-SNAPSHOT</version>
   <name>WorldGuard</name>
   <description>WorldGuard protects your Minecraft servers</description>
 
@@ -28,6 +28,10 @@
       <id>bukkit-repo</id>
       <url>http://repo.bukkit.org/content/groups/public</url>
     </repository>
+        <repository>
+            <id>nexisonline-repo</id>
+            <url>http://repo.nexisonline.net:8080/nexus/content/groups/public/</url>
+        </repository>
   </repositories>
 
   <dependencies>
@@ -35,7 +39,7 @@
     <dependency>
       <groupId>com.sk89q</groupId>
       <artifactId>worldedit</artifactId>
-      <version>5.1-SNAPSHOT</version>
+      <version>5.2-N3X15-SNAPSHOT</version>
     </dependency>
     
     <!-- Bukkit -->
